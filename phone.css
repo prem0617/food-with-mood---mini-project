@@ -1,0 +1,125 @@
+body{
+
+}
+/*Navigation*/
+
+.nav{
+    overflow: hidden;
+    flex-direction: column;
+}
+.bar > ul li a{
+    font-size: 10px;
+    margin: 0px 7px;
+}
+.bar > ul .item1{
+    padding-left: 5px;
+}
+/*Home*/
+.home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.home h1{
+    margin-top: 80px;
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+}
+.home h3{
+    text-align: center;
+    font-size: 20px;
+    width: 250px;
+    margin-top: 0px;
+}
+.home::before {
+    height: 45%;
+}
+
+/*Servisies*/
+.serivces{
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.serivces .box{
+    width: 92%;
+    border: solid gray; 2px;
+    margin: 9px;
+    padding: 10px;
+    background: #f2f2f2;
+    transition: all .3s;
+    border-radius: 20px;
+}
+.serivces .box img{
+/*    width: 50%;*/
+}
+.serivces-main h1 {
+    margin: 10px 0px 0px 0px
+}
+
+/*Clinet*/
+
+.client-main img{
+    margin-top: 50px;
+    height: 40px;
+}
+/*Table*/
+
+.rev-table::before{ 
+    height: 38%
+}
+
+/*Footer*/
+
+.footer-main{
+    padding: 30px 0px 20px 0px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.footer-main h1{
+    font-size: 50px;
+}
+.footer-main ul {
+    list-style: none;
+    margin-left: 25px;
+    width: 60%;
+    padding: 10px;
+    margin-top: 10px;
+}
+.footer-main ul li{
+    text-align: center;
+    border: solid white;
+    margin-top: 5px;
+}
+.footer-main h3{
+    margin: 15px 0px;
+    text-align: center;
+}
+.footer-main h2{
+    text-align: center;
+}
+.footer-main .social .right{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-main .social .twi{
+    margin-left: 18px;
+    margin-top: 3px;
+}
+.footer-main .social .link{
+    margin-top: 2px;
+}

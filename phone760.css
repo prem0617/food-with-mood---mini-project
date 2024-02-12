@@ -1,0 +1,12 @@
+.client-main::before {
+    content: '';
+    position: absolute;
+    background: url(logobg.jpg) no-repeat center center/cover;
+    height: 25%;
+    width: 100%;
+    z-index: -1;
+    opacity: .5;
+}
+.rev-table h1{
+    margin-top: -15px;
+}
